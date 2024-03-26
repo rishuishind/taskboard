@@ -1,3 +1,4 @@
+import MainLayout from "./components/MainLayout"
 import Navbar from "./components/Navbar"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <div className="w-[100vw] h-[100vh] flex flex-col">
         <Navbar />
+        <MainLayout />
       </div>
     </>
   )
